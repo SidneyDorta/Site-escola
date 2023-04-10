@@ -1,16 +1,32 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
 .cabecalho{
     background-color: #383D58;
     color: white;
     display:flex;
     justify-content: space-around;
-
+    align-items: center;
+    padding: 24px 0;
 
     }
     .cabecalho-lista-item{
+         font color: #white;
          display: inline-block;
          margin: 0 16px;
          padding: 24px  0;
          font-size: 24px;
+         text-align: center;
+
 
 
     }
@@ -49,8 +65,29 @@
                 width: 35%;
                 }
                 .escola-titulo {
-                    padding: 24px 0;
+                    padding: 12px 12px;
                     }
+
+            .escola-texto-um{
+                justify-content: center;
+                align-items: center;
+                padding: 12px 12px;
+
+            }        
+
+            .escola-texto-dois{
+                justify-content: center;
+                align-items: center;
+                padding: 12px 12px;
+
+            }      
+            
+            .escola-texto-tres{
+                justify-content: center;
+                align-items: center;
+                padding: 06px 12px;
+
+            }       
             .estudante-imagem{
 
                 width: 120px;
@@ -64,5 +101,30 @@
             .estudante-div{
                 text-align: center;
 
+            }
+            .estudante-titulo{
+                text-align: center;
+                padding: 50px 0;
+
+            }   
+            .estudante-todos{
+
+                display: grid;
+                grid-template-columns: 20% 20% 20% 20% 20% ;
+
+
+            }
+            .rodape{
+
+                background-color:black;
+                text-align: center;
+
+
+            }
+            .rodape-imagem{
+
+                height: 120px;
+                padding:22 px 0;
+                
 
             }
